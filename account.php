@@ -40,7 +40,7 @@ else if (isset($_REQUEST['logout']) === true) {
 
     body {
         background: #654ea3;
-        background: linear-gradient(to right, #e96443, #904e95);
+        background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
         min-height: 100vh;
         overflow-x: hidden
     }
@@ -54,7 +54,7 @@ else if (isset($_REQUEST['logout']) === true) {
             <div class="bg-white shadow rounded overflow-hidden">
                 <div class="px-4 pt-0 pb-4 cover">
                     <div class="media align-items-end profile-head">
-                        <div class="profile mr-3"><img src="images/photo-profile.avif" alt="..." width="150"
+                        <div class="profile mr-3"><img src="images\profile-photo.png" alt="..." width="150"
                                 class="rounded mb-2 img-thumbnail">
                             <a href="?logout" class="btn btn-primary btn-sm btn-block">Sign Out</a>
                         </div>
@@ -96,9 +96,9 @@ else if (isset($_REQUEST['logout']) === true) {
                 <div class="px-4 py-3">
                     <h5 class="mb-0">Expertise </h5>
                     <div class="p-4 rounded shadow-sm bg-light">
-                        <p class="font-italic mb-0">Full-stack Web Developer</p>
-                        <p class="font-italic mb-0">Mobile App Developer</p>
-                        <p class="font-italic mb-0">Photographer/Videographer</p>
+                        <p class="font-italic mb-0">Coding</p>
+                        <p class="font-italic mb-0">Design</p>
+                        <p class="font-italic mb-0">Photography</p>
                     </div>
                 </div>
 
@@ -109,13 +109,13 @@ else if (isset($_REQUEST['logout']) === true) {
                     </div>
                     <div class="row">
 
-                        <div class="col-lg-6 mb-2 pr-lg-1"><img src="images/photo-1.avif" alt=""
+                        <div class="col-lg-6 mb-2 pr-lg-1"><img src="images\beach.jpg" alt=""
                                 class="img-fluid rounded shadow-sm"></div>
-                        <div class="col-lg-6 mb-2 pl-lg-1"><img src="images/photo-2.avif" alt=""
+                        <div class="col-lg-6 mb-2 pl-lg-1"><img src="images\food.jpg" alt=""
                                 class="img-fluid rounded shadow-sm"></div>
-                        <div class="col-lg-6 pr-lg-1 mb-2"><img src="images/photo-3.avif" alt=""
+                        <div class="col-lg-6 pr-lg-1 mb-2"><img src="images\sunset.jpg" alt=""
                                 class="img-fluid rounded shadow-sm"></div>
-                        <div class="col-lg-6 pl-lg-1"><img src="images/photo-4.avif" alt=""
+                        <div class="col-lg-6 pl-lg-1"><img src="images\sunset2.jpg" alt=""
                                 class="img-fluid rounded shadow-sm"></div>
                     </div>
                 </div>
