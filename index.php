@@ -6,7 +6,7 @@ SESSION_START();
 $acc_username = "John";
 $acc_password = "password";
 $acc_fullname = "John Denver Balagwis";
-$acc_address = "Marinduque PH";
+$acc_address = "Bagong Silang, Santa Cruz, Marinduque";
 
 $url_add = "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
 
